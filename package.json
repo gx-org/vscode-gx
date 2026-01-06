@@ -1,29 +1,43 @@
-/** Extension Definition for the GX Language */
 {
-  "name": "gx",
-  "displayName": "GX",
-  "description":
-      "GX language support for Visual Studio Code",
-  "icon": "icons/icon.png",
-  "version": "0.0.1",
-  "publisher": "Google",
-  "categories": ["Programming Languages"],
-  "extensionKind": ["web"],
-  "contributes": {
-    "grammars": [{
-      "language": "gx",
-      "path": "syntaxes/gx.tmLanguage.json",
-      "scopeName": "source.gx"
-    }],
-    "languages": [{
-      "id": "gx",
-      "aliases": ["GX"],
-      "configuration": "language-configuration.json",
-      "extensions": [".gx"],
-      "icon": {
-        "light": "icons/icon.png",
-        "dark": "icons/icon.png"
-      }
-    }]
-  }
+	"name": "gx",
+	"displayName": "GX",
+	"description": "GX language support for Visual Studio Code",
+	"icon": "icons/icon.png",
+	"version": "0.0.1",
+	"license": "MIT",
+	"engines": {
+		"vscode": "*"
+	},
+	"publisher": "Google",
+	"categories": [
+		"Programming Languages"
+	],
+	"extensionKind": [
+		"web"
+	],
+	"contributes": {
+		"grammars": [
+			{
+				"language": "gx",
+				"path": "syntaxes/gx.tmLanguage.json",
+				"scopeName": "source.gx"
+			}
+		],
+		"languages": [
+			{
+				"id": "gx",
+				"aliases": [
+					"GX"
+				],
+				"configuration": "language-configuration.json",
+				"extensions": [
+					".gx"
+				],
+				"icon": {
+					"light": "icons/icon.png",
+					"dark": "icons/icon.png"
+				}
+			}
+		]
+	}
 }
