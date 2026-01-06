@@ -12,9 +12,6 @@
 	"categories": [
 		"Programming Languages"
 	],
-	"extensionKind": [
-		"web"
-	],
 	"contributes": {
 		"grammars": [
 			{
@@ -39,5 +36,9 @@
 				}
 			}
 		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/gx-org/vscode-gx.git"
 	}
 }
