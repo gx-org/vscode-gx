@@ -4,7 +4,7 @@
   "displayName": "GX",
   "description":
       "GX language support for Visual Studio Code",
-  "icon": "icons/icon.svg",
+  "icon": "icons/icon.png",
   "version": "0.0.1",
   "publisher": "Google",
   "categories": ["Programming Languages"],
@@ -21,8 +21,8 @@
       "configuration": "language-configuration.json",
       "extensions": [".gx"],
       "icon": {
-        "light": "icons/icon.svg",
-        "dark": "icons/icon.svg"
+        "light": "icons/icon.png",
+        "dark": "icons/icon.png"
       }
     }]
   }
