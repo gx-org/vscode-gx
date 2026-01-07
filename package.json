@@ -1,5 +1,6 @@
 {
 	"name": "gx",
+	"readme": "README.md",
 	"displayName": "GX",
 	"description": "GX language support for Visual Studio Code",
 	"icon": "icons/icon.png",
