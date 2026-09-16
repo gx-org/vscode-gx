@@ -9,7 +9,7 @@
 	"engines": {
 		"vscode": "*"
 	},
-	"publisher": "Google",
+	"publisher": "gx-org",
 	"categories": [
 		"Programming Languages"
 	],
